@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- DTD  -->
+
+<!DOCTYPE note
+[
+<!ELEMENT student (name,fathername,age,email)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT fathername (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+]>
+
+<students>
+<student>
+<name>ANAS</name>
+<fathername>MUHAMMAD SALEEM</fathername>
+<age>19</age>
+<email>anas2402f@aptechgdn.net</email>
+</student>
+
+
+</students>
